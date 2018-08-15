@@ -21,7 +21,7 @@ Target requirements
 -------------------
 
 The target software must implement a ring buffer in memory for st-term uses to communicate with it.
-An example implementation is available [here](1). The memory layout is also described in a comment
+An example implementation is available [here][1]. The memory layout is also described in a comment
 in st-term.c.
 
 [1]: https://github.com/nekromant/antares/blob/b98b715f2fc4d8741381b5886073cb1d64871d40/src/lib/stlinky/stlinky.c
