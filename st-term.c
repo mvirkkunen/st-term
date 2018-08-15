@@ -317,6 +317,9 @@ int main(int ac, char** av) {
                 stlinky_tx(st,txbuf,tmp);
             }
         }
+    } else {
+        printf("Couldn't find/open ST-LINK\n");
     }
+
     return 0;
 }
